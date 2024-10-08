@@ -1,0 +1,191 @@
+[2024-10-08 17:00:31.421]  INFO 460 --- [   File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 47 class path changes (0 additions, 0 deletions, 47 modifications)
+[2024-10-08 17:00:31.423]  INFO 460 --- [       Thread-7] o.a.c.h.Http11NioProtocol                : Stopping ProtocolHandler ["http-nio-8080"]
+[2024-10-08 17:00:31.605]  INFO 460 --- [       Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 17:00:31.605]  INFO 460 --- [       Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+[2024-10-08 17:00:31.608]  INFO 460 --- [       Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+[2024-10-08 17:00:31.722]  INFO 460 --- [  restartedMain] c.r.a.AmsApplication                     : Starting AmsApplication using Java 17.0.2 with PID 460 (D:\Dev_Test\ams\target\classes started by minam in D:\Dev_Test\ams)
+[2024-10-08 17:00:31.722]  INFO 460 --- [  restartedMain] c.r.a.AmsApplication                     : The following 1 profile is active: "prod"
+[2024-10-08 17:00:31.964]  INFO 460 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-10-08 17:00:31.964] DEBUG 460 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.rfiot.ams.
+[2024-10-08 17:00:31.967] DEBUG 460 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\book\BookRepository.class]
+[2024-10-08 17:00:31.968] DEBUG 460 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\token\TokenRepository.class]
+[2024-10-08 17:00:31.968] DEBUG 460 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\user\UserRepository.class]
+[2024-10-08 17:00:31.979]  INFO 460 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 3 JPA repository interfaces.
+[2024-10-08 17:00:32.122]  INFO 460 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2024-10-08 17:00:32.123]  INFO 460 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2024-10-08 17:00:32.123]  INFO 460 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2024-10-08 17:00:32.124]  INFO 460 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-10-08 17:00:32.138]  INFO 460 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2024-10-08 17:00:32.138]  INFO 460 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+[2024-10-08 17:00:32.208]  INFO 460 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-10-08 17:00:32.209]  INFO 460 --- [  restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+[2024-10-08 17:00:32.218]  INFO 460 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-10-08 17:00:32.219]  INFO 460 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+[2024-10-08 17:00:32.279]  INFO 460 --- [  restartedMain] c.z.h.p.HikariPool                       : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@56902ccb
+[2024-10-08 17:00:32.279]  INFO 460 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+[2024-10-08 17:00:32.321]  INFO 460 --- [  restartedMain] p6spy                                    : #1728374432321 | took 8ms | statement | connection 15| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 17:00:32.386]  INFO 460 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-10-08 17:00:32.388]  INFO 460 --- [  restartedMain] p6spy                                    : #1728374432388 | took 1ms | statement | connection 16| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 17:00:32.433]  INFO 460 --- [  restartedMain] p6spy                                    : #1728374432433 | took 1ms | statement | connection 16| url jdbc:postgresql://localhost:5432/amsdb
+select * from "public"."_user" where 1=0
+select * from "public"."_user" where 1=0;
+[2024-10-08 17:00:32.437]  INFO 460 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 17:00:32.457] DEBUG 460 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContextâ€¦
+[2024-10-08 17:00:32.458] DEBUG 460 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext
+[2024-10-08 17:00:32.471] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.user.UserRepositoryâ€¦
+[2024-10-08 17:00:32.473] DEBUG 460 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query User.findByEmail
+[2024-10-08 17:00:32.474] DEBUG 460 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query User.findByEmail
+[2024-10-08 17:00:32.476] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.user.UserRepository.
+[2024-10-08 17:00:32.485] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.token.TokenRepositoryâ€¦
+[2024-10-08 17:00:32.489] DEBUG 460 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findAllValidTokenByUser.count
+[2024-10-08 17:00:32.491] DEBUG 460 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query Token.findByToken
+[2024-10-08 17:00:32.491] DEBUG 460 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findByToken
+[2024-10-08 17:00:32.494] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.token.TokenRepository.
+[2024-10-08 17:00:32.539]  INFO 460 --- [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[2024-10-08 17:00:32.540]  WARN 460 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+[2024-10-08 17:00:32.551] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.book.BookRepositoryâ€¦
+[2024-10-08 17:00:32.555] DEBUG 460 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.book.BookRepository.
+[2024-10-08 17:00:32.657] DEBUG 460 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+[2024-10-08 17:00:32.717] DEBUG 460 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+[2024-10-08 17:00:32.756] DEBUG 460 --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+[2024-10-08 17:00:32.814] DEBUG 460 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2024-10-08 17:00:32.822] DEBUG 460 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2024-10-08 17:00:32.918]  INFO 460 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2024-10-08 17:00:32.927]  INFO 460 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2024-10-08 17:00:32.930]  INFO 460 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2024-10-08 17:00:32.935]  INFO 460 --- [  restartedMain] c.r.a.AmsApplication                     : Started AmsApplication in 1.262 seconds (process running for 131.066)
+[2024-10-08 17:00:33.037]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('_user_seq')
+[2024-10-08 17:00:33.040]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('admin@mail.com', 'Admin', 'Admin', '$2a$10$fxrXSwVd77G.Wfe1gWwAW.Ug66X8KBSRTRITbLTRCUMkl0wglW4x2', 'ADMIN', 1202)
+[2024-10-08 17:00:33.051]  INFO 460 --- [  restartedMain] p6spy                                    : [commit] | 10 ms | 
+[2024-10-08 17:00:33.054]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('token_seq')
+[2024-10-08 17:00:33.058]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBtYWlsLmNvbSIsImlhdCI6MTcyODM3NDQzMywiZXhwIjoxNzI4NDYwODMzfQ.wHJeEAeHMISADYc-8fsXGw2atkYfQ1FYhNz2yLpyBEU', 'BEARER', 1202, 1202)
+[2024-10-08 17:00:33.059]  INFO 460 --- [  restartedMain] p6spy                                    : [commit] | 0 ms | 
+[2024-10-08 17:00:33.158]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('manager@mail.com', 'Admin', 'Admin', '$2a$10$wmqvQUsyW7eYUpko/H/WQOtdy.be8TrTiJ9Hx7cfhGacD.HTM8YEO', 'MANAGER', 1203)
+[2024-10-08 17:00:33.160]  INFO 460 --- [  restartedMain] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 17:00:33.164]  INFO 460 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYW5hZ2VyQG1haWwuY29tIiwiaWF0IjoxNzI4Mzc0NDMzLCJleHAiOjE3Mjg0NjA4MzN9.dP1QCzzWnExW1_vSCYp7_69tsX0avQ8IIV018u5E6FA', 'BEARER', 1203, 1203)
+[2024-10-08 17:00:33.165]  INFO 460 --- [  restartedMain] p6spy                                    : [commit] | 0 ms | 
+[2024-10-08 17:00:33.167]  INFO 460 --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+[2024-10-08 17:00:34.008]  INFO 5220 --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.1.Final
+[2024-10-08 17:00:34.039]  INFO 5220 --- [           main] c.r.a.AmsApplicationTests                : Starting AmsApplicationTests using Java 17.0.2 with PID 5220 (started by minam in D:\Dev_Test\ams)
+[2024-10-08 17:00:34.049]  INFO 5220 --- [           main] c.r.a.AmsApplicationTests                : The following 1 profile is active: "prod"
+[2024-10-08 17:00:34.103] DEBUG 5220 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@2dddc1b9
+[2024-10-08 17:00:35.368]  INFO 5220 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-10-08 17:00:35.392] DEBUG 5220 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.rfiot.ams.
+[2024-10-08 17:00:35.413] DEBUG 5220 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\book\BookRepository.class]
+[2024-10-08 17:00:35.415] DEBUG 5220 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\token\TokenRepository.class]
+[2024-10-08 17:00:35.416] DEBUG 5220 --- [           main] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\user\UserRepository.class]
+[2024-10-08 17:00:35.470]  INFO 5220 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+[2024-10-08 17:00:36.885]  INFO 5220 --- [           main] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-10-08 17:00:37.050]  INFO 5220 --- [           main] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-10-08 17:00:37.092]  INFO 5220 --- [           main] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+[2024-10-08 17:00:37.460]  INFO 5220 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-10-08 17:00:37.492]  INFO 5220 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+[2024-10-08 17:00:37.692]  INFO 5220 --- [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6949cead
+[2024-10-08 17:00:37.696]  INFO 5220 --- [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+[2024-10-08 17:00:38.128]  INFO 5220 --- [           main] p6spy                                    : #1728374438128 | took 13ms | statement | connection 1| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 17:00:39.071]  INFO 5220 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-10-08 17:00:39.091]  INFO 5220 --- [           main] p6spy                                    : #1728374439091 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 17:00:39.139]  INFO 5220 --- [           main] p6spy                                    : #1728374439139 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from "public"."_user" where 1=0
+select * from "public"."_user" where 1=0;
+[2024-10-08 17:00:39.145]  INFO 5220 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 17:00:39.262] DEBUG 5220 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext¡¦
+[2024-10-08 17:00:39.290] DEBUG 5220 --- [           main] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext
+[2024-10-08 17:00:39.568] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.user.UserRepository¡¦
+[2024-10-08 17:00:39.658] DEBUG 5220 --- [           main] o.s.d.j.r.q.NamedQuery                   : Looking up named query User.findByEmail
+[2024-10-08 17:00:39.661] DEBUG 5220 --- [           main] o.s.d.j.r.q.NamedQuery                   : Did not find named query User.findByEmail
+[2024-10-08 17:00:39.714] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.user.UserRepository.
+[2024-10-08 17:00:39.757] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.token.TokenRepository¡¦
+[2024-10-08 17:00:39.798]  INFO 5220 --- [           main] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-10-08 17:00:40.088] DEBUG 5220 --- [           main] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findAllValidTokenByUser.count
+[2024-10-08 17:00:40.436] DEBUG 5220 --- [           main] o.s.d.j.r.q.NamedQuery                   : Looking up named query Token.findByToken
+[2024-10-08 17:00:40.436] DEBUG 5220 --- [           main] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findByToken
+[2024-10-08 17:00:40.441] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.token.TokenRepository.
+[2024-10-08 17:00:40.603]  INFO 5220 --- [           main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[2024-10-08 17:00:40.609]  WARN 5220 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+[2024-10-08 17:00:40.627] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.book.BookRepository¡¦
+[2024-10-08 17:00:40.636] DEBUG 5220 --- [           main] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.book.BookRepository.
+[2024-10-08 17:00:41.145] DEBUG 5220 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+[2024-10-08 17:00:41.446] DEBUG 5220 --- [           main] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+[2024-10-08 17:00:41.491] DEBUG 5220 --- [           main] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+[2024-10-08 17:00:41.791] DEBUG 5220 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2024-10-08 17:00:41.837] DEBUG 5220 --- [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2024-10-08 17:00:42.104]  INFO 5220 --- [           main] c.r.a.AmsApplicationTests                : Started AmsApplicationTests in 8.408 seconds (process running for 9.999)
+[2024-10-08 17:00:42.200]  INFO 5220 --- [           main] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('_user_seq')
+[2024-10-08 17:00:42.221]  INFO 5220 --- [           main] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('admin@mail.com', 'Admin', 'Admin', '$2a$10$oxIKmnnS4c7HUiqi0ITXV.DDqVYEIjPetwlydgbqWeDZCCuB8pWOi', 'ADMIN', 1252)
+[2024-10-08 17:00:42.234]  INFO 5220 --- [           main] p6spy                                    : [commit] | 10 ms | 
+[2024-10-08 17:00:42.323]  INFO 5220 --- [           main] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('token_seq')
+[2024-10-08 17:00:42.326]  INFO 5220 --- [           main] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBtYWlsLmNvbSIsImlhdCI6MTcyODM3NDQ0MiwiZXhwIjoxNzI4NDYwODQyfQ.QIS6QD1QYbNUxH6iCqzNSXhGxYD98QhXhcBh61wDuus', 'BEARER', 1252, 1252)
+[2024-10-08 17:00:42.329]  INFO 5220 --- [           main] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 17:00:42.399]  INFO 5220 --- [           main] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('manager@mail.com', 'Admin', 'Admin', '$2a$10$n2/pHQROTEtGMqhLKiiC2OAZSbyGrdZDZj2x3VEI0hH5YhwatkYBO', 'MANAGER', 1253)
+[2024-10-08 17:00:42.401]  INFO 5220 --- [           main] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 17:00:42.404]  INFO 5220 --- [           main] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYW5hZ2VyQG1haWwuY29tIiwiaWF0IjoxNzI4Mzc0NDQyLCJleHAiOjE3Mjg0NjA4NDJ9.PamTW5zIbGXE5eBgIgjApSDq5-WC5YbqP0xqeN54mgw', 'BEARER', 1253, 1253)
+[2024-10-08 17:00:42.405]  INFO 5220 --- [           main] p6spy                                    : [commit] | 0 ms | 
+[2024-10-08 17:00:42.801] DEBUG 5220 --- [ionShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2dddc1b9, started on Tue Oct 08 17:00:34 KST 2024
+[2024-10-08 17:00:42.807]  INFO 5220 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 17:00:42.809]  INFO 5220 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+[2024-10-08 17:00:42.812]  INFO 5220 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

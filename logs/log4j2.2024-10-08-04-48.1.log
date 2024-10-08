@@ -1,0 +1,381 @@
+[2024-10-08 16:48:01.630]  INFO 19276 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 16:48:01.635]  INFO 19276 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+[2024-10-08 16:48:01.637]  INFO 19276 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+[2024-10-08 16:48:05.109]  INFO 4104 --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.1.Final
+[2024-10-08 16:48:05.142]  INFO 4104 --- [  restartedMain] c.r.a.AmsApplication                     : Starting AmsApplication using Java 17.0.2 with PID 4104 (D:\Dev_Test\ams\target\classes started by minam in D:\Dev_Test\ams)
+[2024-10-08 16:48:05.156]  INFO 4104 --- [  restartedMain] c.r.a.AmsApplication                     : The following 1 profile is active: "dev"
+[2024-10-08 16:48:05.197]  INFO 4104 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-10-08 16:48:05.197]  INFO 4104 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-10-08 16:48:05.855]  INFO 4104 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-10-08 16:48:05.863] DEBUG 4104 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.rfiot.ams.
+[2024-10-08 16:48:05.871] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\book\BookRepository.class]
+[2024-10-08 16:48:05.872] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\token\TokenRepository.class]
+[2024-10-08 16:48:05.872] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\user\UserRepository.class]
+[2024-10-08 16:48:05.899]  INFO 4104 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 3 JPA repository interfaces.
+[2024-10-08 16:48:06.449]  INFO 4104 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2024-10-08 16:48:06.460]  INFO 4104 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2024-10-08 16:48:06.464]  INFO 4104 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2024-10-08 16:48:06.464]  INFO 4104 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-10-08 16:48:06.504]  INFO 4104 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2024-10-08 16:48:06.504]  INFO 4104 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1306 ms
+[2024-10-08 16:48:06.612]  INFO 4104 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-10-08 16:48:06.644]  INFO 4104 --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-10-08 16:48:06.673]  INFO 4104 --- [  restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+[2024-10-08 16:48:06.861]  INFO 4104 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-10-08 16:48:06.883]  INFO 4104 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+[2024-10-08 16:48:07.004]  INFO 4104 --- [  restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5dba6dfd
+[2024-10-08 16:48:07.005]  INFO 4104 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+[2024-10-08 16:48:07.235]  INFO 4104 --- [  restartedMain] p6spy                                    : #1728373687235 | took 10ms | statement | connection 1| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 16:48:07.797]  INFO 4104 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-10-08 16:48:07.813]  INFO 4104 --- [  restartedMain] p6spy                                    : #1728373687813 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 16:48:07.859]  INFO 4104 --- [  restartedMain] p6spy                                    : #1728373687859 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from "public"."_user" where 1=0
+select * from "public"."_user" where 1=0;
+[2024-10-08 16:48:07.865]  INFO 4104 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 16:48:07.891] DEBUG 4104 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+[2024-10-08 16:48:07.900] DEBUG 4104 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext
+[2024-10-08 16:48:07.973] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.user.UserRepository…
+[2024-10-08 16:48:08.008] DEBUG 4104 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query User.findByEmail
+[2024-10-08 16:48:08.010] DEBUG 4104 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query User.findByEmail
+[2024-10-08 16:48:08.059] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.user.UserRepository.
+[2024-10-08 16:48:08.076] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.token.TokenRepository…
+[2024-10-08 16:48:08.090]  INFO 4104 --- [  restartedMain] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-10-08 16:48:08.204] DEBUG 4104 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findAllValidTokenByUser.count
+[2024-10-08 16:48:08.343] DEBUG 4104 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query Token.findByToken
+[2024-10-08 16:48:08.343] DEBUG 4104 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findByToken
+[2024-10-08 16:48:08.346] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.token.TokenRepository.
+[2024-10-08 16:48:08.429]  INFO 4104 --- [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[2024-10-08 16:48:08.430]  WARN 4104 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+[2024-10-08 16:48:08.443] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.book.BookRepository…
+[2024-10-08 16:48:08.448] DEBUG 4104 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.book.BookRepository.
+[2024-10-08 16:48:08.541]  WARN 4104 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-10-08 16:48:08.679] DEBUG 4104 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+[2024-10-08 16:48:08.751] DEBUG 4104 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+[2024-10-08 16:48:08.790] DEBUG 4104 --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+[2024-10-08 16:48:08.892] DEBUG 4104 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2024-10-08 16:48:08.925] DEBUG 4104 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2024-10-08 16:48:09.050]  INFO 4104 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2024-10-08 16:48:09.066]  INFO 4104 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2024-10-08 16:48:09.088]  INFO 4104 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2024-10-08 16:48:09.096]  INFO 4104 --- [  restartedMain] c.r.a.AmsApplication                     : Started AmsApplication in 4.286 seconds (process running for 5.02)
+[2024-10-08 16:48:09.187]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('_user_seq')
+[2024-10-08 16:48:09.208]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('admin@mail.com', 'Admin', 'Admin', '$2a$10$gSbZfEFyvAKmw26D6Ma4fORQTUEUMBIW.o0oJ1OnVEGC.zLqtceB.', 'ADMIN', 602)
+[2024-10-08 16:48:09.213]  INFO 4104 --- [  restartedMain] p6spy                                    : [commit] | 2 ms | 
+[2024-10-08 16:48:09.276]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('token_seq')
+[2024-10-08 16:48:09.279]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBtYWlsLmNvbSIsImlhdCI6MTcyODM3MzY4OSwiZXhwIjoxNzI4NDYwMDg5fQ.jjakmuNb1oKkvx6fSRA3pM576kagojb8wK4th47oLnU', 'BEARER', 602, 602)
+[2024-10-08 16:48:09.281]  INFO 4104 --- [  restartedMain] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 16:48:09.354]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('manager@mail.com', 'Admin', 'Admin', '$2a$10$KbR19KNbYa94PSIV6XxRKO3G5xddR38nnbL10JGJ/./S8fHBY/zLG', 'MANAGER', 603)
+[2024-10-08 16:48:09.356]  INFO 4104 --- [  restartedMain] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 16:48:09.361]  INFO 4104 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYW5hZ2VyQG1haWwuY29tIiwiaWF0IjoxNzI4MzczNjg5LCJleHAiOjE3Mjg0NjAwODl9.1tUqfB8qxnDALrtKhaKRw9qfnAFoWvHaDB26ChR1mWM', 'BEARER', 603, 603)
+[2024-10-08 16:48:09.363]  INFO 4104 --- [  restartedMain] p6spy                                    : [commit] | 0 ms | 
+[2024-10-08 16:48:10.776]  INFO 4104 --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-10-08 16:48:10.776]  INFO 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[2024-10-08 16:48:10.777] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+[2024-10-08 16:48:10.777] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+[2024-10-08 16:48:10.777] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+[2024-10-08 16:48:10.779] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@534827f5
+[2024-10-08 16:48:10.780] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6396f525
+[2024-10-08 16:48:10.780] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2024-10-08 16:48:10.780]  INFO 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 3 ms
+[2024-10-08 16:48:10.794] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:10.801] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:10.801] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:10.804] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:10.806] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:10.809] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:10.838] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:10.848] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:10.848] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:10.848] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:10.849] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:10.849] DEBUG 4104 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:10.849] DEBUG 4104 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:10.863] DEBUG 4104 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:10.865] DEBUG 4104 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:10.869] DEBUG 4104 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:10.874] DEBUG 4104 --- [nio-8080-exec-5] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:10.874] DEBUG 4104 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:10.875] DEBUG 4104 --- [nio-8080-exec-5] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:10.875] DEBUG 4104 --- [nio-8080-exec-5] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:10.875] DEBUG 4104 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:10.875] DEBUG 4104 --- [nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:11.160]  INFO 4104 --- [nio-8080-exec-5] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 273 ms
+[2024-10-08 16:48:11.186] DEBUG 4104 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:11.187] DEBUG 4104 --- [nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:11.188] DEBUG 4104 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:11.991] DEBUG 4104 --- [nio-8080-exec-2] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:11.991] DEBUG 4104 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:11.991] DEBUG 4104 --- [nio-8080-exec-2] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:11.991] DEBUG 4104 --- [nio-8080-exec-2] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:11.991] DEBUG 4104 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:11.992] DEBUG 4104 --- [nio-8080-exec-2] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:11.994] DEBUG 4104 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:12.016] DEBUG 4104 --- [nio-8080-exec-6] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:12.016] DEBUG 4104 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:12.016] DEBUG 4104 --- [nio-8080-exec-6] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:12.016] DEBUG 4104 --- [nio-8080-exec-6] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:12.016] DEBUG 4104 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:12.017] DEBUG 4104 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:12.017] DEBUG 4104 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:12.018] DEBUG 4104 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:12.019] DEBUG 4104 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:12.022] DEBUG 4104 --- [nio-8080-exec-3] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:12.023] DEBUG 4104 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:12.023] DEBUG 4104 --- [nio-8080-exec-3] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:12.023] DEBUG 4104 --- [nio-8080-exec-3] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:12.023] DEBUG 4104 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:12.023] DEBUG 4104 --- [nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:12.028] DEBUG 4104 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:12.029] DEBUG 4104 --- [nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:12.030] DEBUG 4104 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:12.689] DEBUG 4104 --- [nio-8080-exec-7] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:12.689] DEBUG 4104 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:12.690] DEBUG 4104 --- [nio-8080-exec-7] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:12.690] DEBUG 4104 --- [nio-8080-exec-7] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:12.690] DEBUG 4104 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:12.691] DEBUG 4104 --- [nio-8080-exec-7] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:12.693] DEBUG 4104 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:12.713] DEBUG 4104 --- [nio-8080-exec-9] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:12.713] DEBUG 4104 --- [nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:12.713] DEBUG 4104 --- [nio-8080-exec-9] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:12.714] DEBUG 4104 --- [nio-8080-exec-9] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:12.714] DEBUG 4104 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:12.714] DEBUG 4104 --- [nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:12.714] DEBUG 4104 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:12.715] DEBUG 4104 --- [nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:12.716] DEBUG 4104 --- [nio-8080-exec-9] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:12.719] DEBUG 4104 --- [nio-8080-exec-8] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:12.719] DEBUG 4104 --- [nio-8080-exec-8] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:12.719] DEBUG 4104 --- [nio-8080-exec-8] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:12.719] DEBUG 4104 --- [nio-8080-exec-8] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:12.720] DEBUG 4104 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:12.720] DEBUG 4104 --- [nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:12.723] DEBUG 4104 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:12.724] DEBUG 4104 --- [nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:12.725] DEBUG 4104 --- [nio-8080-exec-8] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:13.523] DEBUG 4104 --- [io-8080-exec-10] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:13.523] DEBUG 4104 --- [io-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:13.523] DEBUG 4104 --- [io-8080-exec-10] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:13.523] DEBUG 4104 --- [io-8080-exec-10] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:13.523] DEBUG 4104 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:13.524] DEBUG 4104 --- [io-8080-exec-10] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:13.526] DEBUG 4104 --- [io-8080-exec-10] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:13.546] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:13.547] DEBUG 4104 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:13.548] DEBUG 4104 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:13.548] DEBUG 4104 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:13.553] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:13.553] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:13.553] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:13.553] DEBUG 4104 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:13.553] DEBUG 4104 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:13.554] DEBUG 4104 --- [nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:13.555] DEBUG 4104 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:13.555] DEBUG 4104 --- [nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:13.557] DEBUG 4104 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:21.352]  INFO 4104 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 16:48:21.354]  INFO 4104 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+[2024-10-08 16:48:21.356]  INFO 4104 --- [ionShutdownHook] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+[2024-10-08 16:48:26.331]  INFO 4212 --- [kground-preinit] o.h.v.i.u.Version                        : HV000001: Hibernate Validator 8.0.1.Final
+[2024-10-08 16:48:26.355]  INFO 4212 --- [  restartedMain] c.r.a.AmsApplication                     : Starting AmsApplication using Java 17.0.2 with PID 4212 (D:\Dev_Test\ams\target\classes started by minam in D:\Dev_Test\ams)
+[2024-10-08 16:48:26.359]  INFO 4212 --- [  restartedMain] c.r.a.AmsApplication                     : The following 1 profile is active: "dev"
+[2024-10-08 16:48:26.393]  INFO 4212 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2024-10-08 16:48:26.393]  INFO 4212 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2024-10-08 16:48:27.052]  INFO 4212 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2024-10-08 16:48:27.060] DEBUG 4212 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Scanning for JPA repositories in packages com.rfiot.ams.
+[2024-10-08 16:48:27.067] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\book\BookRepository.class]
+[2024-10-08 16:48:27.068] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\token\TokenRepository.class]
+[2024-10-08 16:48:27.069] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.RepositoryComponentProvider    : Identified candidate component class: file [D:\Dev_Test\ams\target\classes\com\rfiot\ams\user\UserRepository.class]
+[2024-10-08 16:48:27.094]  INFO 4212 --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+[2024-10-08 16:48:27.633]  INFO 4212 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port 8080 (http)
+[2024-10-08 16:48:27.641]  INFO 4212 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+[2024-10-08 16:48:27.646]  INFO 4212 --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+[2024-10-08 16:48:27.646]  INFO 4212 --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/10.1.30]
+[2024-10-08 16:48:27.693]  INFO 4212 --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+[2024-10-08 16:48:27.694]  INFO 4212 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1300 ms
+[2024-10-08 16:48:27.803]  INFO 4212 --- [  restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+[2024-10-08 16:48:27.839]  INFO 4212 --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 6.5.3.Final
+[2024-10-08 16:48:27.861]  INFO 4212 --- [  restartedMain] o.h.c.i.RegionFactoryInitiator           : HHH000026: Second-level cache disabled
+[2024-10-08 16:48:28.039]  INFO 4212 --- [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+[2024-10-08 16:48:28.066]  INFO 4212 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+[2024-10-08 16:48:28.198]  INFO 4212 --- [  restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3a07a724
+[2024-10-08 16:48:28.199]  INFO 4212 --- [  restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+[2024-10-08 16:48:28.418]  INFO 4212 --- [  restartedMain] p6spy                                    : #1728373708418 | took 11ms | statement | connection 1| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 16:48:28.986]  INFO 4212 --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2024-10-08 16:48:29.002]  INFO 4212 --- [  restartedMain] p6spy                                    : #1728373709002 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from information_schema.sequences
+select * from information_schema.sequences;
+[2024-10-08 16:48:29.044]  INFO 4212 --- [  restartedMain] p6spy                                    : #1728373709044 | took 1ms | statement | connection 2| url jdbc:postgresql://localhost:5432/amsdb
+select * from "public"."_user" where 1=0
+select * from "public"."_user" where 1=0;
+[2024-10-08 16:48:29.049]  INFO 4212 --- [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2024-10-08 16:48:29.076] DEBUG 4212 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Initializing JpaMetamodelMappingContext…
+[2024-10-08 16:48:29.084] DEBUG 4212 --- [  restartedMain] .c.JpaMetamodelMappingContextFactoryBean : Finished initializing JpaMetamodelMappingContext
+[2024-10-08 16:48:29.161] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.user.UserRepository…
+[2024-10-08 16:48:29.194] DEBUG 4212 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query User.findByEmail
+[2024-10-08 16:48:29.196] DEBUG 4212 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query User.findByEmail
+[2024-10-08 16:48:29.237] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.user.UserRepository.
+[2024-10-08 16:48:29.252] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.token.TokenRepository…
+[2024-10-08 16:48:29.265]  INFO 4212 --- [  restartedMain] o.s.d.j.r.q.QueryEnhancerFactory         : Hibernate is in classpath; If applicable, HQL parser will be used.
+[2024-10-08 16:48:29.368] DEBUG 4212 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findAllValidTokenByUser.count
+[2024-10-08 16:48:29.497] DEBUG 4212 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Looking up named query Token.findByToken
+[2024-10-08 16:48:29.497] DEBUG 4212 --- [  restartedMain] o.s.d.j.r.q.NamedQuery                   : Did not find named query Token.findByToken
+[2024-10-08 16:48:29.500] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.token.TokenRepository.
+[2024-10-08 16:48:29.576]  INFO 4212 --- [  restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+[2024-10-08 16:48:29.577]  WARN 4212 --- [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+[2024-10-08 16:48:29.591] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Initializing repository instance for com.rfiot.ams.book.BookRepository…
+[2024-10-08 16:48:29.596] DEBUG 4212 --- [  restartedMain] o.s.d.r.c.s.RepositoryFactorySupport     : Finished creation of repository instance for com.rfiot.ams.book.BookRepository.
+[2024-10-08 16:48:29.701]  WARN 4212 --- [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2024-10-08 16:48:29.829] DEBUG 4212 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 21 mappings in 'requestMappingHandlerMapping'
+[2024-10-08 16:48:29.903] DEBUG 4212 --- [  restartedMain] o.s.w.s.h.SimpleUrlHandlerMapping        : Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+[2024-10-08 16:48:29.945] DEBUG 4212 --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+[2024-10-08 16:48:30.032] DEBUG 4212 --- [  restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+[2024-10-08 16:48:30.066] DEBUG 4212 --- [  restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+[2024-10-08 16:48:30.208]  INFO 4212 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+[2024-10-08 16:48:30.224]  INFO 4212 --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+[2024-10-08 16:48:30.236]  INFO 4212 --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port 8080 (http) with context path '/'
+[2024-10-08 16:48:30.243]  INFO 4212 --- [  restartedMain] c.r.a.AmsApplication                     : Started AmsApplication in 4.218 seconds (process running for 4.973)
+[2024-10-08 16:48:30.333]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('_user_seq')
+[2024-10-08 16:48:30.353]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('admin@mail.com', 'Admin', 'Admin', '$2a$10$22zoeteDEMW/tXCaSntvpOxcOzH75eHaEYLGp0AwrFQwhXIaBqHZu', 'ADMIN', 652)
+[2024-10-08 16:48:30.365]  INFO 4212 --- [  restartedMain] p6spy                                    : [commit] | 10 ms | 
+[2024-10-08 16:48:30.434]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    select
+        nextval('token_seq')
+[2024-10-08 16:48:30.437]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 1 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbkBtYWlsLmNvbSIsImlhdCI6MTcyODM3MzcxMCwiZXhwIjoxNzI4NDYwMTEwfQ.wwBUM-KEkufsAC0LzsaGyT5SmPKGAdBjuA0elRjvNl8', 'BEARER', 652, 652)
+[2024-10-08 16:48:30.439]  INFO 4212 --- [  restartedMain] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 16:48:30.516]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        _user
+        (email, firstname, lastname, password, role, id)       
+    values
+        ('manager@mail.com', 'Admin', 'Admin', '$2a$10$2o8DGMyewjzx8jEQAWayeO2FdLqlt0fW6HH7arXyImlRpt.SK92Ce', 'MANAGER', 653)
+[2024-10-08 16:48:30.518]  INFO 4212 --- [  restartedMain] p6spy                                    : [commit] | 1 ms | 
+[2024-10-08 16:48:30.522]  INFO 4212 --- [  restartedMain] p6spy                                    : [statement] | 0 ms | 
+    insert       
+    into
+        token
+        (expired, revoked, token, token_type, user_id, id)       
+    values
+        (false, false, 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtYW5hZ2VyQG1haWwuY29tIiwiaWF0IjoxNzI4MzczNzEwLCJleHAiOjE3Mjg0NjAxMTB9.jcFvLMs30yfKG4txCaZjNgFUYkUKQthuyh17lsPL5XA', 'BEARER', 653, 653)
+[2024-10-08 16:48:30.524]  INFO 4212 --- [  restartedMain] p6spy                                    : [commit] | 0 ms | 
+[2024-10-08 16:48:35.494]  INFO 4212 --- [nio-8080-exec-4] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2024-10-08 16:48:35.494]  INFO 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+[2024-10-08 16:48:35.495] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Detected StandardServletMultipartResolver
+[2024-10-08 16:48:35.495] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Detected AcceptHeaderLocaleResolver
+[2024-10-08 16:48:35.495] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Detected FixedThemeResolver
+[2024-10-08 16:48:35.495] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7f8bf555
+[2024-10-08 16:48:35.496] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4505dd76
+[2024-10-08 16:48:35.496] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+[2024-10-08 16:48:35.496]  INFO 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+[2024-10-08 16:48:35.509] DEBUG 4212 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:35.515] DEBUG 4212 --- [nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:35.515] DEBUG 4212 --- [nio-8080-exec-4] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:35.516] DEBUG 4212 --- [nio-8080-exec-4] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:35.518] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:35.521] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:35.547] DEBUG 4212 --- [nio-8080-exec-4] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:35.561] DEBUG 4212 --- [nio-8080-exec-2] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:35.562] DEBUG 4212 --- [nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:35.562] DEBUG 4212 --- [nio-8080-exec-2] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:35.562] DEBUG 4212 --- [nio-8080-exec-2] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:35.562] DEBUG 4212 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:35.563] DEBUG 4212 --- [nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:35.576] DEBUG 4212 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:35.577] DEBUG 4212 --- [nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:35.581] DEBUG 4212 --- [nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:35.588] DEBUG 4212 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:35.589] DEBUG 4212 --- [nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:35.589] DEBUG 4212 --- [nio-8080-exec-1] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:35.589] DEBUG 4212 --- [nio-8080-exec-1] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:35.589] DEBUG 4212 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:35.590] DEBUG 4212 --- [nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:35.827]  INFO 4212 --- [nio-8080-exec-1] o.s.a.AbstractOpenApiResource            : Init duration for springdoc-openapi is: 226 ms
+[2024-10-08 16:48:35.846] DEBUG 4212 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:35.847] DEBUG 4212 --- [nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:35.848] DEBUG 4212 --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:53.627] DEBUG 4212 --- [nio-8080-exec-5] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/index.html
+[2024-10-08 16:48:53.628] DEBUG 4212 --- [nio-8080-exec-5] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:53.628] DEBUG 4212 --- [nio-8080-exec-5] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:53.628] DEBUG 4212 --- [nio-8080-exec-5] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/index.html
+[2024-10-08 16:48:53.629] DEBUG 4212 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/index.html", parameters={}
+[2024-10-08 16:48:53.629] DEBUG 4212 --- [nio-8080-exec-5] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:53.632] DEBUG 4212 --- [nio-8080-exec-5] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:53.640] DEBUG 4212 --- [nio-8080-exec-3] o.s.s.w.FilterChainProxy                 : Securing GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:53.641] DEBUG 4212 --- [nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:53.641] DEBUG 4212 --- [nio-8080-exec-3] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:53.642] DEBUG 4212 --- [nio-8080-exec-3] o.s.s.w.FilterChainProxy                 : Secured GET /swagger-ui/swagger-initializer.js
+[2024-10-08 16:48:53.642] DEBUG 4212 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : GET "/swagger-ui/swagger-initializer.js", parameters={}
+[2024-10-08 16:48:53.643] DEBUG 4212 --- [nio-8080-exec-3] o.s.w.s.h.SimpleUrlHandlerMapping        : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+[2024-10-08 16:48:53.646] DEBUG 4212 --- [nio-8080-exec-3] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:53.666] DEBUG 4212 --- [nio-8080-exec-7] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:53.666] DEBUG 4212 --- [nio-8080-exec-7] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:53.666] DEBUG 4212 --- [nio-8080-exec-7] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:53.666] DEBUG 4212 --- [nio-8080-exec-7] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs/swagger-config
+[2024-10-08 16:48:53.666] DEBUG 4212 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs/swagger-config", parameters={}
+[2024-10-08 16:48:53.667] DEBUG 4212 --- [nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.ui.SwaggerConfigResource#openapiJson(HttpServletRequest)
+[2024-10-08 16:48:53.667] DEBUG 4212 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json]
+[2024-10-08 16:48:53.668] DEBUG 4212 --- [nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{configUrl=/v3/api-docs/swagger-config, oauth2RedirectUrl=http://localhost:8080/swagger-ui/oauth2-re (truncated)...]
+[2024-10-08 16:48:53.669] DEBUG 4212 --- [nio-8080-exec-7] o.s.w.s.DispatcherServlet                : Completed 200 OK
+[2024-10-08 16:48:53.672] DEBUG 4212 --- [nio-8080-exec-6] o.s.s.w.FilterChainProxy                 : Securing GET /v3/api-docs
+[2024-10-08 16:48:53.673] DEBUG 4212 --- [nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+[2024-10-08 16:48:53.673] DEBUG 4212 --- [nio-8080-exec-6] o.s.s.w.s.SessionManagementFilter        : Request requested invalid session id 068031DFF4F3F997DB6FF0F412FB7E99
+[2024-10-08 16:48:53.674] DEBUG 4212 --- [nio-8080-exec-6] o.s.s.w.FilterChainProxy                 : Secured GET /v3/api-docs
+[2024-10-08 16:48:53.674] DEBUG 4212 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : GET "/v3/api-docs", parameters={}
+[2024-10-08 16:48:53.674] DEBUG 4212 --- [nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springdoc.webmvc.api.OpenApiWebMvcResource#openapiJson(HttpServletRequest, String, Locale)
+[2024-10-08 16:48:53.680] DEBUG 4212 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [application/json, */*] and supported [application/json]
+[2024-10-08 16:48:53.681] DEBUG 4212 --- [nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{123, 34, 111, 112, 101, 110, 97, 112, 105, 34, 58, 34, 51, 46, 48, 46, 49, 34, 44, 34, 105, 110, 10 (truncated)...]
+[2024-10-08 16:48:53.681] DEBUG 4212 --- [nio-8080-exec-6] o.s.w.s.DispatcherServlet                : Completed 200 OK
